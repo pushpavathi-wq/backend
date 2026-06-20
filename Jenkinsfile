@@ -21,7 +21,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/GArunkumar999/backend.git'
+                git branch: 'main', url: 'https://github.com/pushpavathi-wq/backend.git'
             }
         }
         stage('read version'){
